@@ -1,0 +1,2 @@
+select rental_id,first_name,last_name from customer
+dvdrental-# join rental on rental.customer_id=customer.customer_id;
